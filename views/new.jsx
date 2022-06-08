@@ -10,6 +10,15 @@ function New() {
         <input type={"text"} name={"name"} id={"id"} required />
         <label htmlFor="image">Image</label>
         <input type={"text"} name={"image"} id={"id"} />
+        <label htmlFor="baker">Baker</label>
+        <select name="baker" id="baker" defaultValue={bread.baker}>
+          <option value="Rachel">Rachel</option>
+          <option value="Monica">Monica</option>
+          <option value="Josh">Josh</option>
+          <option value="Chandelier">Chandelier</option>
+          <option value="Ross">Ross</option>
+          <option value="Phoede">Phoede</option>
+        </select>
         <label htmlFor="hasGluten">Has Gluten?</label>
         <input
           type={"checkbox"}
